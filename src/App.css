@@ -1,0 +1,242 @@
+body {
+  padding: 5px;
+}
+
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+
+.search {
+  padding: 0.2rem 0.5rem;
+}
+
+.Update {
+  background-color: #ffe699;
+  border: 1px solid gray;
+  padding: 6px 13px;
+  margin-top: 0.35rem;
+  margin-left: 5.1rem;
+  float: right;
+  cursor: pointer;
+  position: absolute;
+}
+
+.addNewUser {
+  z-index: 100;
+  margin-left: 25rem;
+  margin-top: -99.7rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+  position: fixed;
+}
+
+.newUser {
+  border: 1px solid;
+  padding: 2rem 5rem 3rem 2rem;
+}
+
+.newuserinput {
+  padding: 0.5rem;
+  margin-bottom: 5px;
+}
+
+.newuserbutton {
+  margin-left: 7.5rem;
+  position: absolute;
+}
+
+.addUserButtons {
+  background-color: #ffe699;
+  border: 1px solid gray;
+  padding: 3px 13px;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+.Delete {
+  background-color: #ffe699;
+  border: 1px solid gray;
+  padding: 6px 13px;
+  margin-top: 0.35rem;
+  margin-left: 9.8rem;
+  float: right;
+  cursor: pointer;
+  position: absolute;
+}
+
+.fromnewpost {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.newposttask {
+  width: 20rem;
+  height: 5rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+.newposttask::placeholder {
+  font-size: 16px;
+}
+
+.newposttitle {
+  margin-bottom: 5px;
+  width: 21.6rem;
+  font-size: 16px;
+  padding-left: 0.3rem;
+}
+
+.divBtnpost-title {
+  margin-right: 6.85rem;
+}
+
+.addbtnButtons {
+  background-color: #ffe699;
+  border: 1px solid gray;
+  float: right;
+  padding: 3px 13px;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+.Update-open {
+  margin-left: 11.3rem;
+}
+
+.Delete-open {
+  margin-left: 16rem;
+}
+
+.completedName {
+  width: 50%;
+}
+
+.divL {
+  z-index: -1;
+  margin-right: 96rem;
+  margin-top: 1.1rem;
+  padding: 1rem;
+}
+.divLopen {
+  z-index: -1;
+  margin-right: 96rem;
+  margin-top: 1.1rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+}
+
+.divLClick {
+  background-color: rgba(255, 166, 0, 0.308);
+}
+
+.other-data {
+  background-color: #bfbfbf;
+  border: 1px solid rgba(245, 242, 242, 0.726);
+  padding: 6px 13px;
+  margin-top: 0.3rem;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.divR {
+  float: right;
+  width: 75%;
+  z-index: 100;
+  position: relative;
+  top: -169px;
+}
+
+.divRopen {
+  float: right;
+  width: 75%;
+  z-index: 100;
+  position: relative;
+  top: -262px;
+}
+
+.divRnewuser {
+  float: right;
+  width: 75%;
+  z-index: 100;
+  position: relative;
+  margin-right: -18rem;
+}
+
+.div4tasks {
+  border: 1px solid;
+  width: 40%;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+.div4posts {
+  border: 1px solid;
+  width: 40%;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+.title-todo-title {
+  width: 40%;
+  padding-left: 1rem;
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+.addtodo-post {
+  margin-left: 18rem;
+  background-color: #ffe699;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.addUser {
+  background-color: #ffe699;
+  border: 1px solid gray;
+  margin-left: 7rem;
+  padding: 3px 13px;
+  cursor: pointer;
+}
+
+.post {
+  font-size: 18px;
+  font-weight: 400;
+}
+.todo {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.markBtn {
+  margin-left: 16rem;
+  background-color: #ffe699;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding: 5px 8px;
+}
+
+.taskItem {
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.postItem {
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1228px) {
+  .divL {
+    margin-right: 40rem;
+  }
+}
+@media only screen and (max-width: 1828px) {
+  .divL {
+    margin-right: 58rem;
+  }
+}
